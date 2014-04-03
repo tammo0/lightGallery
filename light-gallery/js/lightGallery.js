@@ -344,7 +344,7 @@
                             window.location.href = this.href;
                             return false;
                         });
-										}
+                    }
                 }
             },
             addDesc: function () {
