@@ -339,12 +339,12 @@
                         }
                     }
                     if (captionlinksUsed) {
-												$("div.info>a.title").bind("touchend touchcancel", function(e) {
-												    e.preventDefault();
-												    window.location.href = this.href;
-												    return false;
-												});
-										}
+                        $("div.info>a.title").bind("touchend touchcancel", function(e) {
+                            e.preventDefault();
+                            window.location.href = this.href;
+                            return false;
+                        });
+                    }
                 }
             },
             addDesc: function () {
